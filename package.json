@@ -1,0 +1,30 @@
+{
+  "name": "gulp-asset-prefix",
+  "version": "0.0.0",
+  "description": "gulp plugin to prefix asset paths",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/index.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AVCEngineering/gulp-asset-prefix.git"
+  },
+  "keywords": [
+    "gulp",
+    "asset",
+    "prefix",
+    "path"
+  ],
+  "author": "Andrew Van Campenhout",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "event-stream": "^3.3.4",
+    "mocha": "^5.0.4",
+    "vinyl": "^2.1.0"
+  }
+}
